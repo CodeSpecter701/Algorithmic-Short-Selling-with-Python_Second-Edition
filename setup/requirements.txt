@@ -1,0 +1,28 @@
+# Data Strategy for LLMs - Consolidated Requirements
+# This file contains all dependencies needed across all chapters
+
+# Core dependencies
+openai
+python-dotenv==1.0.1
+requests==2.32.3
+numpy
+pandas
+jupyter
+
+# Vector database and ML dependencies
+chromadb==0.5.5
+tiktoken==0.7.0
+
+# Telemetry stack (keep stable to avoid noisy prints)
+posthog<3
+
+# Web scraping and document processing
+beautifulsoup4==4.12.3
+pypdf==4.2.0
+wikipedia-api==0.6.0
+biopython==1.83
+reportlab==4.2.2
+
+# Graph and visualization for Chapter 3 notebooks
+networkx
+matplotlib
